@@ -4,5 +4,17 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"sqltools.connections": [
+			{
+				"connectionMethod": "Hostname and Token",
+				"catalog": "hive_metastore",
+				"previewLimit": 50,
+				"driver": "Databricks",
+				"name": "dbxsql",
+				"host": "adb-4316303623283526.6.azuredatabricks.net",
+				"path": "/sql/protocolv1/o/4316303623283526/0207-181626-6e3t2vn4"
+			}
+		]
+	}
 }
